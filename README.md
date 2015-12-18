@@ -13,3 +13,7 @@
 - #### 说明文档
 
 	你完全可以使用doc来编写一些工具的说明书,也可以编写一些技术规范说明文档以供团队查阅
+
+如图：
+
+![](http://imagesdemo.jumppo.com/uploads/7FAA8B3B-0ADC-4A68-826C-DC5679C82F42.png)
