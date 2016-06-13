@@ -21,17 +21,17 @@
 }
 </style>
 <div id="layout">
-    <!-- 顶部条 --> 
+    <!-- 顶部条 -->
     <header class="row">
       <div class="head-left  pull-left">
 
         <ul class="inline">
           <li> <input type="text" name ="page_title" id="page_title" placeholder="请输入页面标题" value="{$page.page_title}">
           </li>
-          <li>       
+          <li>
             上级目录：<select name="cat_id" id="cat_id"></select>
           </li>
-          <li>       
+          <li>
             <input type="text" name ="order" id="order" value="{$page.order}" placeholder="可选：顺序数字">
           </li>
           <li>
@@ -49,8 +49,9 @@
       <br>
       <!-- 插入模板的按钮组 -->
       <div class="btns" >
-          <button id="api-doc">插入API接口模板</button>                    
-          <button id="database-doc">插入数据字典模板</button>                    
+          <button id="api-doc">插入API接口模板</button>
+          <button id="database-doc">插入数据字典模板</button>
+          <button id="product-doc">插入需求模板</button>
       </div>
 
     <div id="editormd">
@@ -64,7 +65,7 @@
 <!-- 模板存放的地方 -->
   <div id="api-doc-templ" style="display:none"><include file="MdTemplate/api-doc" /></div>
   <div id="database-doc-templ" style="display:none"><include file="MdTemplate/database" /></div>
-
+  <div id="product-doc-templ" style="display:none"><include file="MdTemplate/product" /></div>
  <include file="Common/footer" />
  <script src="__PUBLIC__/editor.md/editormd.min.js"></script>
  <script src="__PUBLIC__/js/page/edit.js"></script>

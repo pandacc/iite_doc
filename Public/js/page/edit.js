@@ -25,7 +25,7 @@ $(function() {
                 $("#cat_id").append(cat_html);
             };
           };
-          
+
         },
         "json"
 
@@ -50,7 +50,12 @@ $(function() {
       var tmpl = $("#database-doc-templ").html();
       editormd.insertValue(tmpl);
   });
-  
+
+  $("#product-doc").click(function(){
+      var tmpl = $("#product-doc-templ").html();
+      editormd.insertValue(tmpl);
+  });
+
   /*保存*/
   $("#save").click(function(){
     var page_id = $("#page_id").val();
@@ -78,14 +83,3 @@ $(function() {
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
